@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+header {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+
+ .header-bar{
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: gainsboro;
+    display: flex;
+}  
+
+header p {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+header img:first-child {
+    width: 300px;
+    height:100px;
+
+}
+header img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height:100px;
+}
+
+header img:nth-child(3){
+    position: absolute;
+    top: 28px;
+    right: 150px;
+    height: 45px;
+}
+
+#dropbtn {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 5px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .dropdown img {
+    height: 20px;
+  }
+  
+  .dropdown {
+    position: absolute;
+    right: 50px;
+    top: 0;
+  }
+
+  .Home{
+    height: 20px;
+    padding-right: 5px;
+    border-right: 3px solid black;
+    margin-top: 15px;
+  }
+
+  span {
+    color: rgb(23, 216, 226);
+  }
+
+ .rooter{
+    border-top: inset;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .PhoneNumber{
+    color: black;
+    text-decoration: underline;
+  }

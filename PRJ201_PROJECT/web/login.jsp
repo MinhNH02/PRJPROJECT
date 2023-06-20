@@ -7,11 +7,28 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+        <head>
+            <meta charset="UTF-8">
+            <title>Login</title>
+            <link rel="stylesheet"  href="${pageContext.request.contextPath}/CSS/login.css">
+        </head>
+        <body>
+            <div class="login-container">
+                <h2>Login</h2>
+                <form action="login" method="POST">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                     <button type="submit">Login</button>
+                    </form>
+                
+            </div>
+             <img src="img/trung-dung-ki-tuc-xa-sinh-vien-_dh_fpt.jpg" alt="Background Image">
+                     </body>
 </html>
+             
