@@ -108,3 +108,66 @@ header img:nth-child(3){
     color: black;
     text-decoration: underline;
   }
+  
+  .form-container  {
+    display:flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+}
+
+.form-content {
+    background-color: #fff;
+    width: 900px;
+    max-width: calc(100% - 32px);
+    min-height: 200px;
+    position: relative;
+    animation: modalFadeIn ease 0.5s;
+    border-radius: 25px;
+}
+
+.form-close {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 25px;
+
+}
+
+.form-close:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #fff;
+}
+
+.form-header {
+    border-radius: 25px;
+    background-color: #4AD489;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 6px;
+    display: flex;
+}
+
+.form-container td {
+    background-color: #fff;
+}
+
+.form-container input {
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+.form-body {
+    padding: 16px
+}
